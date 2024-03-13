@@ -1,7 +1,8 @@
 Web hooks: 
 whenever any push changes happend, build trigger automatically.
 
-Go to github project settings
+First check in Build trigger GitHub hook trigger for GITScm polling
+then Go to github project settings
 then click on webhooks
 then add new webhook
 then http://ec2-13-48-47-200.eu-north-1.compute.amazonaws.com:8080/github-webhook/
