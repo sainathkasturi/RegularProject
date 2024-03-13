@@ -1,0 +1,8 @@
+Jenkins build remotly:
+http://ec2-13-48-47-200.eu-north-1.compute.amazonaws.com:8080/job/Freestyle_Project2/build?token=Mahesh  
+
+Build Periodically:
+*/1 * * * *
+
+POL SCM:
+when changs are pushed to git remote repo then jenkins runs a build.
